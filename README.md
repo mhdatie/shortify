@@ -2,7 +2,7 @@
 A convenient URL shortener API
 
 ### Inspiration
-How to code a URL shortener?](https://stackoverflow.com/q/742013/2898754) with some further reading:
+[How to code a URL shortener?](https://stackoverflow.com/q/742013/2898754) with some further reading:
 
 - [How does a URL Shortener work?](https://stackoverflow.com/q/4572734/2898754)
 - [How do short URLs services work?](https://stackoverflow.com/q/1562367/2898754)
