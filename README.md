@@ -13,6 +13,11 @@ A simple NodeJS API that shortens a URL and stores original, or returns original
 
 It uses MongoDB for storage with an auto-incremental ID as explained [here](https://docs.mongodb.com/v3.0/tutorial/create-an-auto-incrementing-field/), implemented with Mongoose API.
 
+### Installation
+- Run `npm install` to install dependencies
+  - Run `npm run dev` to run the server with nodemon (listens for file changes) or,
+  - Run `npm start` to start the server
+
 ### Todo
 - Add analytics
 - Add option to redirect (or make it default) when requesting original URL
