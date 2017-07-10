@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const CounterSchema = require('./models/counter');
 const bodyParser = require('body-parser');
 
-const router = require('./routes/index');
+const router = require('./routes');
 
 const app = express();
 

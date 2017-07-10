@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/index');
+const mainController = require('../controllers');
 const pj = require('../package.json');
 
 /* GET home page. */
@@ -9,9 +9,9 @@ router.get('/', (req, res) => {
 });
 
 /* Create a short URL */
-router.post('/', controller.saveUrl);
+router.post('/', mainController.saveUrl);
 
 /* Get original URL */
-router.get('/:code', controller.getUrl);
+router.get('/:code', mainController.getUrl);
 
 module.exports = router;
