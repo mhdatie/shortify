@@ -1,6 +1,8 @@
 # shortify
 A convenient URL shortener API
 
+Article on [Medium](https://medium.com/@mhdatie/url-shortener-api-with-nodejs-and-mongodb-c7e73a7be4d6)
+
 ### Inspiration
 [How to code a URL shortener?](https://stackoverflow.com/q/742013/2898754) with some further reading:
 
