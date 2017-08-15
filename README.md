@@ -18,9 +18,5 @@ It uses MongoDB for storage with an auto-incremental ID as explained [here](http
   - Run `npm run dev` to run the server with nodemon (listens for file changes) or,
   - Run `npm start` to start the server
 
-### Todo
-- Add analytics
-- Add option to redirect (or make it default) when requesting original URL
-
 ### Licence
 MIT
