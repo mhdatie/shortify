@@ -36,7 +36,7 @@ const decode = (code) => {
 };
 
 const getRequestingGeoLocation = (req) => {
-    return req.geoip.country || isIP(req.ip) ? req.ip : NA;
+    return (req.geoip) ? req.geoip.country : (isIP(req.ip) ? req.ip : NA);
 };
 
 const getRequestingBrowser = (useragent) => {
